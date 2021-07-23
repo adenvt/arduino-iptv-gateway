@@ -1,0 +1,29 @@
+{
+  "name": "arduino-iptv-gateway",
+  "version": "1.0.0",
+  "description": "Server for arduino-iptv's project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adenvt/arduino-iptv-gateway.git"
+  },
+  "author": "Ade Novid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adenvt/arduino-iptv-gateway/issues"
+  },
+  "homepage": "https://github.com/adenvt/arduino-iptv-gateway#readme",
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
